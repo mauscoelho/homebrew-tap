@@ -1,14 +1,14 @@
 cask "rabbitty-beta" do
-  version "0.1.0-beta.5"
-  sha256 "e7dc35d699a3ebdc79c9186537d5d9b76e3729de92d755c41dad51f1eb409ce3"
+  version "0.1.0-beta.6"
+  sha256 "18040fd8ea3334c62823e0d126d32a8269c5fcf86d81a1b9318e6be07bc5b77d"
 
   # Universal (arm64 + x86_64), Developer ID signed + notarized — installs with no
-  # --no-quarantine. Hosted on this PUBLIC tap repo's releases; the source repo
-  # (mauscoelho/rabbitty) is private, so its release assets aren't downloadable.
-  url "https://github.com/mauscoelho/homebrew-tap/releases/download/v#{version}/Rabbitty-Beta-#{version}.zip"
+  # --no-quarantine. Hosted on the PUBLIC rabbitty-app repo's releases; the source
+  # repo (mauscoelho/rabbitty) is private, so its release assets aren't downloadable.
+  url "https://github.com/mauscoelho/rabbitty-app/releases/download/v#{version}/Rabbitty-Beta-#{version}.zip"
   name "Rabbitty Beta"
   desc "Keyboard-driven worklane terminal that coordinates AI coding agents"
-  homepage "https://github.com/mauscoelho/rabbitty"
+  homepage "https://github.com/mauscoelho/rabbitty-app"
 
   # Distinct identity from the local dev build (dev.rabbitty.beta), so the two
   # coexist. Conflicts only with a future stable "rabbitty" cask.
