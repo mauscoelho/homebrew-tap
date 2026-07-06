@@ -1,10 +1,10 @@
 cask "rabbitty-beta" do
-  version "0.1.0-beta.1"
-  sha256 "a5f0eb843ed46cdad098b94686b09395f544126bc3d755454da56e20bcc59dde"
+  version "0.1.0-beta.2"
+  sha256 "03db2ab652b6058285494a0029b01529c14fdcc844c935e20e559f19f16ca0d9"
 
-  # Universal (arm64 + x86_64) beta from scripts/macos/package-beta.sh --universal.
-  # Hosted on this PUBLIC tap repo's releases — the source repo (mauscoelho/rabbitty)
-  # is private, so its release assets aren't publicly downloadable.
+  # Universal (arm64 + x86_64), Developer ID signed + notarized — installs with no
+  # --no-quarantine. Hosted on this PUBLIC tap repo's releases; the source repo
+  # (mauscoelho/rabbitty) is private, so its release assets aren't downloadable.
   url "https://github.com/mauscoelho/homebrew-tap/releases/download/v#{version}/Rabbitty-Beta-#{version}.zip"
   name "Rabbitty Beta"
   desc "Keyboard-driven worklane terminal that coordinates AI coding agents"
