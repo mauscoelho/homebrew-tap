@@ -1,7 +1,8 @@
-# Rabbitty — install
+# Rabbitty — Homebrew tap
 
 Rabbitty is a keyboard-driven worklane terminal that coordinates AI coding
-agents. This tap distributes the **beta** build via Homebrew.
+agents. This tap provides the Homebrew cask. For downloads, releases, and issues
+see **[rabbitty-app](https://github.com/mauscoelho/rabbitty-app)**.
 
 ## Requirements
 
@@ -13,7 +14,7 @@ agents. This tap distributes the **beta** build via Homebrew.
 ### Option 1 — Download (no Homebrew needed)
 
 1. Download the latest **`Rabbitty-Beta-*.dmg`** from the
-   [**Releases page**](https://github.com/mauscoelho/homebrew-tap/releases/latest).
+   [**Releases page**](https://github.com/mauscoelho/rabbitty-app/releases/latest).
 2. Open it, drag **Rabbitty Beta** onto **Applications**.
 3. Launch **Rabbitty Beta** from Spotlight.
 
