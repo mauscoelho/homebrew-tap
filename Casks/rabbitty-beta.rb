@@ -12,7 +12,7 @@ cask "rabbitty-beta" do
   # Distinct identity from the local dev build (dev.rabbitty.beta), so the two
   # coexist. Conflicts only with a future stable "rabbitty" cask.
   conflicts_with cask: "rabbitty"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Rabbitty Beta.app"
 
