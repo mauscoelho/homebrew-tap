@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0-beta.4",
-  "zip_url": "https://github.com/mauscoelho/homebrew-tap/releases/download/v0.1.0-beta.4/Rabbitty-Beta-0.1.0-beta.4.zip",
-  "sha256": "3e67ee5bd9238220dc8f1e8cc4b1b675d96a4fb7060e7086d2343d62db188b6f",
-  "dmg_url": "https://github.com/mauscoelho/homebrew-tap/releases/download/v0.1.0-beta.4/Rabbitty-Beta-0.1.0-beta.4.dmg",
-  "notes": "Login-shell fix (tools/PATH), native macOS menus, scrollable sidebar, DMG install + in-app self-updater."
+  "version": "0.1.0-beta.5",
+  "zip_url": "https://github.com/mauscoelho/homebrew-tap/releases/download/v0.1.0-beta.5/Rabbitty-Beta-0.1.0-beta.5.zip",
+  "sha256": "e7dc35d699a3ebdc79c9186537d5d9b76e3729de92d755c41dad51f1eb409ce3",
+  "dmg_url": "https://github.com/mauscoelho/homebrew-tap/releases/download/v0.1.0-beta.5/Rabbitty-Beta-0.1.0-beta.5.dmg",
+  "notes": "Auto-update test build — click the top-right Update pill to self-update."
 }

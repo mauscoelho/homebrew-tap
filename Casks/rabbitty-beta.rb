@@ -1,6 +1,6 @@
 cask "rabbitty-beta" do
-  version "0.1.0-beta.4"
-  sha256 "3e67ee5bd9238220dc8f1e8cc4b1b675d96a4fb7060e7086d2343d62db188b6f"
+  version "0.1.0-beta.5"
+  sha256 "e7dc35d699a3ebdc79c9186537d5d9b76e3729de92d755c41dad51f1eb409ce3"
 
   # Universal (arm64 + x86_64), Developer ID signed + notarized — installs with no
   # --no-quarantine. Hosted on this PUBLIC tap repo's releases; the source repo
