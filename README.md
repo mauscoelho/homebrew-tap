@@ -10,12 +10,27 @@ agents. This tap distributes the **beta** build via Homebrew.
 
 ## Install
 
+### Option 1 — Download (no Homebrew needed)
+
+1. Download the latest **`Rabbitty-Beta-*.dmg`** from the
+   [**Releases page**](https://github.com/mauscoelho/homebrew-tap/releases/latest).
+2. Open it, drag **Rabbitty Beta** onto **Applications**.
+3. Launch **Rabbitty Beta** from Spotlight.
+
+It's signed + notarized by Apple, so it opens with no warning. Universal —
+Apple Silicon and Intel.
+
+### Option 2 — Homebrew
+
 ```bash
 brew tap mauscoelho/tap
 brew install --cask rabbitty-beta
 ```
 
 Then launch **Rabbitty Beta** from Spotlight or your Applications folder.
+
+Either way, the app **updates itself** — when a new beta ships, an "Update"
+button appears in the top-right; click it to download and relaunch.
 
 ## Updating
 
