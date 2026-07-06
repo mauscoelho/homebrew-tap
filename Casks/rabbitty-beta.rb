@@ -15,6 +15,10 @@ cask "rabbitty-beta" do
   conflicts_with cask: "rabbitty"
   depends_on macos: :ventura
 
+  # The app self-updates (in-app updater), so Homebrew shouldn't fight it: brew
+  # tracks the version it installed but won't force-manage upgrades.
+  auto_updates true
+
   app "Rabbitty Beta.app"
 
   # NB: config/state are shared with the local dev build — `brew uninstall --zap`
