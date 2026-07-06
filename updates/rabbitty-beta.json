@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0-beta.4",
+  "zip_url": "https://github.com/mauscoelho/homebrew-tap/releases/download/v0.1.0-beta.4/Rabbitty-Beta-0.1.0-beta.4.zip",
+  "sha256": "3e67ee5bd9238220dc8f1e8cc4b1b675d96a4fb7060e7086d2343d62db188b6f",
+  "dmg_url": "https://github.com/mauscoelho/homebrew-tap/releases/download/v0.1.0-beta.4/Rabbitty-Beta-0.1.0-beta.4.dmg",
+  "notes": "Login-shell fix (tools/PATH), native macOS menus, scrollable sidebar, DMG install + in-app self-updater."
+}
