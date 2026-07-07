@@ -1,6 +1,6 @@
 cask "rabbitty-beta" do
-  version "0.1.0-beta.12"
-  sha256 "98237e5ab49efd9616e5d0ec77a387f88ee24006b6b94f282610310a6acea63c"
+  version "0.1.0-beta.13"
+  sha256 "fa55aa2938337d9bee433cfde38b491936e2424e037bba6375a4f7e8bfd6e335"
 
   # Universal (arm64 + x86_64), Developer ID signed + notarized — installs with no
   # --no-quarantine. Hosted on the PUBLIC rabbitty-app repo's releases; the source
